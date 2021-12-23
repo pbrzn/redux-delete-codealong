@@ -22,14 +22,14 @@ class CreateTodo extends Component {
       text: '',
     })
   }
-  
+
   render() {
     return(
       <div>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
-            placeholder="add todo" 
+            placeholder="add todo"
             onChange={this.handleChange}
             value={this.state.text}
           />
